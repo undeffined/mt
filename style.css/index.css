@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: #F4F4F4;
+}
+
+#mt-hd{
+    height: 60px;
+    background-color: orange;
+}
+
+#mt-hd img{
+    margin: 10px 100px 0 200px;
+}
+.search{
+    width: 450px;
+    height: 38px;
+    margin-top: 10px;
+    background: url(../img/header.png) no-repeat 0 -38px;
+}
+.search input{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: none;
+    background-color: transparent;
+    color: #555;
+}
+.search span{
+    margin-left: 40px;
+    color: #fff;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.brace{
+    color: #000;
+}
+.num{
+    color: red;
+}
+.mt-nav{
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    /* 鼠标指针为手状 */
+    /* cursor: pointer; 
+    color: blue; */
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.mt-bd{
+    width: 1120px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.food{
+    width: 230px;
+    height: 290px;
+    float: left;
+    padding: 25px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.food img{
+    width: 230px;
+    height: 170px;
+}
+.food .add,.sell{
+    text-align: right;
+}
+.food ul li{
+    margin-bottom: 8px;
+}
+.sell{
+    color: orange;
+}
+.price{
+    float: right;
+}
+
+/* 购物车的样式 */
+.mt-cart{
+    display: none;
+    width: 1120px;
+    margin: auto;
+    clear: both;
+}
+.mt-cart table{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.mt-cart table td{
+    border: 1px solid #ccc;
+}
+.mt-cart .order{
+    cursor: pointer;
+}
